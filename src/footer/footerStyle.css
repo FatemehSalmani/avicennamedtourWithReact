@@ -1,0 +1,65 @@
+.footer{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: #dceff2;
+    padding: 2rem;
+}
+
+.request{
+width: 25%;
+    padding: 2rem;
+}
+.request h4{
+    font-size: 17px !important;
+    margin-bottom: 39px;
+    text-align: right;
+    display: inline-block !important;
+    position: relative;
+    color: #046d7f;
+    margin-left: 0;
+}
+.request h4::after{
+    content: " ";
+    width: 200px;
+    height: 24px;
+    position: absolute;
+    bottom: -27px;
+    left: -2px;
+    background: url( "https://file.haftsetare.com/Content/base/dynamic/shopping1159/img/104099.jpg");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.reg{
+    padding: 30px 10px;
+    background: rgba(1,113,130,0.1);
+    border-radius: 50px 50px 50px 10px;
+}
+.reg input{
+    display: block;
+    margin:1rem;
+    border-radius: 40px 40px 10px 40px;
+    font-size: 14px;
+     min-width: 200px;
+    width: 100%;
+    color: #8a887c;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.8);
+    border: none;
+}
+.phone{
+    display: inline;
+}
+.exp{
+
+}
+.contact{
+
+}
+.fOf{
+
+}
