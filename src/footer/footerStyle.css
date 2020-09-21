@@ -9,8 +9,10 @@
 }
 
 .request{
-width: 25%;
-    padding: 2rem;
+  width: 32%;
+  min-width: 380px;
+  padding: 2rem;
+    display: inline-block;
 }
 .request h4{
     font-size: 17px !important;
@@ -35,31 +37,121 @@ width: 25%;
 
 }
 .reg{
-    padding: 30px 10px;
+    height: auto;
+    padding: 20px 0px;
+    padding-bottom: 15px;
     background: rgba(1,113,130,0.1);
     border-radius: 50px 50px 50px 10px;
 }
 .reg input{
-    display: block;
-    margin:1rem;
     border-radius: 40px 40px 10px 40px;
     font-size: 14px;
-     min-width: 200px;
-    width: 100%;
     color: #8a887c;
     padding: 10px 20px;
     background: rgba(255,255,255,0.8);
     border: none;
 }
-.phone{
-    display: inline;
-}
-.exp{
 
+.other{
+    margin:1rem;
+    display: block;
+    min-width: 200px;
+    width: 90%;
+}
+.phoneCode{
+  width: 25%;
+    margin-left: 15px;
+}
+.phoneNum{
+    width: 66%;
+    margin-left: 0;
+}
+
+.reqBut{
+    text-decoration: none;
+    background-color: #00bbd8;
+    color: white;
+    border-radius: 40px 40px 40px 10px;
+    padding: 8px 14px;
+    font-family: GuardianSansRegular, sans-serif;
+    bottom: 0;
+    border: 2px solid #076b7d;
+    margin: 2rem;
+
+
+}
+
+.exp{
+    top: 0;
+    width: 30%;
+    min-width: 350px;
+    text-align: center;
+    height: auto;
+    display: inline-block;
+    font-size: 14px;
+   }
+.fImg{
+    height: auto;
+    margin: 0 auto;
+    width: 115px;
+    z-index: 700;
+}
+.fText{
+    padding: 12px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border: 1px solid rgba(4,109,127,0.5);
+    border-radius: 20px;
+    margin-top: -29px;
+    position: relative;
+    background: none;
 }
 .contact{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin-right: 100px;
+}
+.footer-list-header{
+    text-align: right;
+    margin-left: 0;
+    margin-right: -25px;
+    font-size: 17px !important;
+    margin-bottom: 39px;
+    display: inline-block !important;
+    position: relative;
+    color: #046d7f;
+    font-family: GuardianSansRegular, sans-serif;
+}
+.footer-list-header h4::after{
+    content: " ";
+    width: 200px;
+    height: 24px;
+    position: absolute;
+    bottom: -27px;
+    left: -2px;
+    background: url( "https://file.haftsetare.com/Content/base/dynamic/shopping1159/img/104099.jpg");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
 
 }
-.fOf{
+.contact_icon1{
+    text-decoration: none;
+}
+.location{
+    background-image: url("http://avicennamedtour.com/Content/base/dynamic/shopping1159/img/104092.jpg");
+}
 
+.telephone{
+    background-image: url("http://avicennamedtour.com/Content/base/dynamic/shopping1159/img/104084.jpg");
+}
+
+.Email{
+    background-image: url("http://avicennamedtour.com/Content/base/dynamic/shopping1159/img/104091.jpg");
+}
+
+.clock{
+    background-image: url("http://avicennamedtour.com/Content/base/dynamic/shopping1159/img/104093.jpg");
 }
